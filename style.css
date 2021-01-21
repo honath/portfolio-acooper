@@ -2,6 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Baseline and classes */
 html {
     background-color: #000;
 }
@@ -10,19 +11,40 @@ body {
     background-color: #fff;
 }
 
+img {
+    border-radius: 10px;
+}
+
+.icon {
+    height: 18px;
+    margin-right: 5px;
+    
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 div.image-container {
     width: 100%;
     justify-content: center;
     margin: auto;
 }
 
-img {
-    border-radius: 10px;
-}
-
 .black-background {
     background-color: #000;
     color: #fff;
+}
+
+.main-image {
+    max-width: 80%;
+}
+
+.no-bullets {
+    list-style: none;
+    padding-left: 0;
 }
 
 /* Header section */
@@ -40,7 +62,6 @@ header h1 {
 header ul {
     display: flex;
     justify-content: center;
-    padding-left: 0;
 }
 
 header li {
@@ -58,6 +79,10 @@ main {
     padding-bottom: 10px;
 }
 
+main p {
+    font-size: 16px;
+}
+
 section {
     text-align: center;
 }
@@ -66,11 +91,8 @@ section div {
     margin: auto 10px;
 }
 
-.main-image {
-    max-width: 80%;
-}
-
-main p a {
+main p a,
+main li a {
     color: #000;
 }
 
@@ -78,6 +100,40 @@ main ul {
     display: table;
     text-align: left;
     margin: 0 auto;
+}
+
+form {
+    display: table;
+    text-align: left;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+}
+
+form input[type="email"] {
+    width: 13rem;
+}
+
+form input[type="text"],
+form input[type="email"], 
+form textarea {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+form button {
+    display: block;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+}
+
+form button:hover {
+    transition-duration: .13s;
+    background-color: #fff;
+    color: #000;
 }
 
 /* Footer section */
@@ -110,7 +166,33 @@ footer h3 {
         max-width: 500px;
     }
 
-    main p a:hover {
+    main p a:hover,
+    main li a:hover {
         color: #333;
+    }
+
+    form {
+        display: block;
+    }
+
+    .form-flex {
+        display: flex;
+    }
+
+    form input[type="text"] {
+        margin-right: 10px;
+    }
+
+    form textarea {
+        width: 502px;
+        height: 9rem;
+    }
+
+    form button {
+        margin: auto;
+    }
+
+    form label {
+        margin-right: 3px;
     }
 }

@@ -12,7 +12,7 @@
         <header class="black-background">
             <h1>Alexander Cooper</h1>
             <nav>
-                <ul>
+                <ul class="no-bullets">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about.html">About</a></li>
                     <li><a href="/projects.html">Projects</a></li>
@@ -22,6 +22,45 @@
         </header>
         <main>
             <section>
+                <h2>Contact</h2>
+                <div>
+                    <p>Feel free to contact me for business or social inquiries via any of the methods below.</p>
+                    <p>My preferred method of contact is via email.</p>
+                    <div class="contact">
+                        <img class="icon" src="/images/email-icon.png" alt="Email icon">
+                        <p id="email">Email: <a href="mailto:ajwcooper97@gmail.com">ajwcooper97@gmail.com</a></p>
+                    </div>
+                    <div class="contact">
+                        <img class="icon" src="/images/phone-icon.png" alt="Phone icon">
+                        <p id="phone">Phone: <a href="tel:704-996-5173">704-996-5173</a></p>
+                    </div>
+                    <div class="contact">
+                        <img class="icon" src="/images/github-icon.png" alt="GitHub icon">
+                        <p id="github"><a href="https://github.com/honath" target="_blank">GitHub</a></p>
+                    </div>
+                    <div class="contact">
+                        <img class="icon" src="/images/linkedin-icon.png" alt="LinkedIn icon">
+                        <p id="linkedin"><a href="https://www.linkedin.com/in/alex-cooper-880057120/" target="_blank">LinkedIn</a></p>
+                    </div>
+                    <h3>Send me a message:</h3>
+                    <div class="contact">
+                        <form action="" method="post">
+                            <div class="form-flex">
+                                <label for="name">Name:</label>
+                                <input type="text" id="name" name="name" autofocus="on" placeholder="John Doe">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="example@example.com">
+                            </div>  
+                            <div>
+                                <label for="message">Your Message:</label>
+                                <textarea name="message" id="message" placeholder="Hi, I'd like to contact you regarding..."></textarea>
+                             </div>
+                             <div>
+                                <button type="submit">Send</button>
+                             </div>
+                        </form>
+                    </div>  
+                </div>
             </section>
         </main>
         <footer class="black-background">
