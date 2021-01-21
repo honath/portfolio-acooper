@@ -112,7 +112,8 @@ form label {
     display: block;
 }
 
-form input[type="email"] {
+form input[type="email"],
+form textarea {
     width: 13rem;
 }
 
