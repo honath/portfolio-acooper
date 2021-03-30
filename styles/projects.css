@@ -1,3 +1,8 @@
+.projects-page-header {
+  background-image: url("../images/header/header-projects.jpg");
+  box-shadow: none;
+}
+
 .project {
   padding-top: 10px;
   padding-bottom: 15px;

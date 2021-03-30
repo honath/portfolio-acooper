@@ -1,9 +1,7 @@
 .contact-header {
-  background-image: url("../images/header/contact.jpg");
+  background-image: url("../images/header/header-contact.jpg");
   box-shadow: none;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  
 }
 
 .contact-body {
