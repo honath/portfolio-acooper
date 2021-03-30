@@ -23,6 +23,8 @@
   </head>
 
   <body>
+    <!-- Header image -->
+    <header class="contact-header"></header>
     <!-- Page navbar -->
     <nav class="nav-links">
       <div class="outer-spacer outer-left"></div>
@@ -48,39 +50,36 @@
     </nav>
     <!-- Page body -->
     <main class="contact-body">
-      <!-- Contact intro -->
-      <section class="row row-top">
-        <!-- Preferred contact -->
-        <div class="col-2 contact-intro">
-          <h2>Preferred Method of Contact:</h2>
-          <p>
-            Email is my preferred method of contact, however please feel free to
-            reach out to me via any other method as well!
-          </p>
-        </div>
-        <!-- Reveal contact info -->
-        <div class="col-2 contact-interact">
-          <h2>Click on an image to reveal the contact information:</h2>
-          <div class="contact-container-list">
-            <div class="contact" id="contact-email">
-              <img
-                src="./images/icons/email-icon.png"
-                alt="Email icon"
-                id="email-img"
-              />
-              <a class="hidden info-text" href="" id="email-text">blank</a>
-            </div>
-            <div class="contact" id="contact-phone">
-              <img
-                src="./images/icons/phone-icon.png"
-                alt="Phone icon"
-                id="phone-img"
-              />
-              <a class="hidden info-text" href="" id="phone-text">blank</a>
-            </div>
+      <!-- Reveal contact info -->
+      <div class="contact-interact">
+        <h2>Click on an image to reveal the contact information:</h2>
+        <div class="contact-container-list">
+          <div class="contact" id="contact-email">
+            <img
+              src="./images/icons/email-icon.png"
+              alt="Email icon"
+              id="email-img"
+            />
+            <a class="hidden info-text" href="" id="email-text">blank</a>
+          </div>
+          <div class="contact" id="contact-phone">
+            <img
+              src="./images/icons/phone-icon.png"
+              alt="Phone icon"
+              id="phone-img"
+            />
+            <a class="hidden info-text" href="" id="phone-text">blank</a>
           </div>
         </div>
-      </section>
+      </div>
+      <!-- Preferred contact -->
+      <div class="contact-intro">
+        <h2>Preferred Method of Contact:</h2>
+        <p>
+          Email is my preferred method of contact, however please feel free to
+          reach out to me via any other method as well!
+        </p>
+      </div>
       <!-- Contact form -->
       <section class="contact-form">
         <h2>Email Me:</h2>
@@ -111,7 +110,7 @@
             ></textarea>
           </div>
           <div>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" />
           </div>
         </form>
       </section>
