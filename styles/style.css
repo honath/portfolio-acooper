@@ -57,19 +57,18 @@ main {
   font-size: 32px;
 }
 
-.centered-p-parent {
-  position: relative;
-}
-
 .center-paragraphs {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .center-paragraphs p {
   text-align: left;
-  padding-bottom: 15px;
+  padding-bottom: 15px; 
+  width: 100%;
 }
 
 .section-divider {
