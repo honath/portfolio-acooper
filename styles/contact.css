@@ -85,7 +85,7 @@ textarea {
 
 input[type="submit"] {
   width: 100%;
-  background-color: #4caf50;
+  background-color: rgb(98, 156, 236);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -95,5 +95,6 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: rgb(120, 174, 250);
+  transition: 0.28s;
 }
