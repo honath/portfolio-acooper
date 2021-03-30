@@ -1,43 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Alex Cooper's Portfolio</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css">
-        <link rel="stylesheet" href="style.css" type="text/css">
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Alex Cooper</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <link rel="stylesheet" href="styles/top-bottom.css" type="text/css" />
+    <link rel="stylesheet" href="styles/home.css" type="text/css" />
+  </head>
 
-    <body>
-        <header class="black-background">
-            <h1>Alexander Cooper</h1>
-            <nav>
-                <ul class="no-bullets">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2>Introduction</h2>
-                <div>
-                    <p>My name is Alexander Cooper, and I am currently a student at the coding bootcamp Thinkful.</p>
-                    <div class="image-container" >
-                        <img class="main-image" src="images/torching-soup.jpg" alt="Me, torching cheese for French Onion Soup">
-                    </div>
-                    <p>I live near the center of Charlotte in North Carolina, however I hope to move back to the West coast eventually, 
-                        either up in Washington near family, or Southern California in the area I lived before!</p>
-                    <p>I originally studied Computer Science in college, and have always had an interest in coding and development. This 
-                        portfolio website is to help show my projects and more information about myself, for anybody interested in either
-                        contacting or hiring me.</p>
-                </div>
-            </section>
-        </main>
-        <footer class="black-background">
-            <h3>&#169; Alexander Cooper</h3>
-        </footer>
-    </body>
+  <body>
+    <!-- Page header + navbar -->
+    <header>
+      <div class="header-logo">
+        <div class="header-img-container">
+          <img
+            class="img-me"
+            src="./images/header/header-me.png"
+            alt="My Face"
+          />
+        </div>
+        <div class="header-title">
+          <h1 class="text-off-white text-drop-shadow">Alexander Cooper</h1>
+          <h2 class="text-off-white text-drop-shadow">
+            Full Stack Web Developer
+          </h2>
+        </div>
+      </div>
+      <div class="header-links">
+        <div class="header-icon-container" id="github">
+          <img
+            src="./images/icons/github-icon-white.png"
+            alt="GitHub Icon"
+            class="header-icon"
+          />
+          <p class="header-icon-link text-off-white text-drop-shadow">GitHub</p>
+        </div>
+        <div class="header-icon-container" id="linkedin">
+          <img
+            src="./images/icons/linkedin-icon-white.png"
+            alt="LinkedIn Icon"
+            class="header-icon"
+          />
+          <p class="header-icon-link text-off-white text-drop-shadow">
+            LinkedIn
+          </p>
+        </div>
+      </div>
+    </header>
+    <nav class="nav-links">
+      <div class="outer-spacer outer-left"></div>
+      <div class="nav-link-box">
+        <button type="button" class="link-item" id="home">Home</button>
+      </div>
+
+      <div class="link-spacer"></div>
+      <div class="nav-link-box">
+        <button type="button" class="link-item" id="about">About</button>
+      </div>
+
+      <div class="link-spacer"></div>
+      <div class="nav-link-box">
+        <button type="button" class="link-item" id="projects">Projects</button>
+      </div>
+
+      <div class="link-spacer"></div>
+      <div class="nav-link-box">
+        <button type="button" class="link-item" id="contact">Contact</button>
+      </div>
+      <div class="outer-spacer outer-right"></div>
+    </nav>
+    <!-- Page body -->
+    <main>
+      <!-- Welcome -->
+      <section class="row">
+        <!-- Image column -->
+        <div class="welcome-img-container col-2">
+          <img
+            src="./images/body/welcome-img.png"
+            alt="Neat tech overlay"
+            class="welcome-img"
+          />
+          <h2 class="welcome-title">Welcome!</h2>
+        </div>
+        <!-- Text column -->
+        <div class="centered-p-parent col-2">
+          <div class="center-paragraphs">
+            <p>
+              My name is Alexander, though I prefer to go by Alex. I'm a full
+              stack web developer, graduating from Thinkful's Engineering Flex
+              program.
+            </p>
+            <p></p>
+          </div>
+        </div>
+      </section>
+      <div class="section-divider"></div>
+      <!-- Skills -->
+      <section class="row">
+        <!-- Text column -->
+        <div class="centered-p-parent col-2">
+          <div class="center-paragraphs">
+            <p>
+              Many of my projects have included popular front-end and back-end
+              frameworks such as React, Bootstrap, Express, and Knex.
+            </p>
+            <p>
+              For the front-end sites, many have been developed with a "mobile
+              first" mindset, built to be responsive and accessible by any
+              device, with any screen size.
+            </p>
+            <p>
+              Back-end APIs were designed using RESTful API building practices,
+              with robust validation middleware, being mindful of both the time-
+              and space-complexities of each function.
+            </p>
+            <p>
+              Intelligent route handling responding with appropriate HTTP status
+              codes, JSON formatted data, and robust error handling for invalid
+              requests or methods.
+            </p>
+          </div>
+        </div>
+        <!-- Image column -->
+        <div class="landing-skills col-2">
+          <div class="skills-container">
+            <div class="skill">
+              <img
+                src="./images/icons/frontend-icon.png"
+                alt="Front end web native icons"
+                class="skill-img"
+              />
+
+              <h3 class="skill-header">HTML, CSS, and JavaScript</h3>
+            </div>
+            <div class="skill">
+              <img
+                src="./images/icons/react-icon.png"
+                alt="React icon"
+                class="skill-img"
+              />
+              <h3 class="skill-header">React</h3>
+            </div>
+            <div class="skill">
+              <img
+                src="./images/icons/node-icon.png"
+                alt="Node icon"
+                class="skill-img"
+              />
+              <h3 class="skill-header">Node</h3>
+            </div>
+            <div class="skill">
+              <img
+                src="./images/icons/postgres-icon.png"
+                alt="PostgrSQL icon"
+                class="skill-img"
+              />
+              <h3 class="skill-header">PostgreSQL</h3>
+            </div>
+          </div>
+          <div class="skills-container">
+            <div class="skill">
+              <img
+                src="./images/icons/bootstrap-icon.png"
+                alt="Bootstrap icon"
+                class="skill-img"
+              />
+              <h3 class="skill-header">Bootstrap</h3>
+            </div>
+            <div class="skill">
+              <img
+                src="./images/icons/express-icon.png"
+                alt="Express icon"
+                class="skill-img"
+              />
+              <h3 class="skill-header">Express</h3>
+            </div>
+            <div class="skill">
+              <img
+                src="./images/icons/knex-icon.png"
+                alt="Knex icon"
+                class="skill-img"
+              />
+              <h3 class="skill-header">Knex</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Page footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3 class="footer-header text-off-white">Navigation:</h3>
+          <ul class="footer-links-list">
+            <li>
+              <a href="index.html" class="footer-link text-off-white">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="footer-link text-off-white">About</a>
+            </li>
+            <li>
+              <a href="projects.html" class="footer-link text-off-white"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" class="footer-link text-off-white"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 class="footer-header text-off-white">Additional Links:</h3>
+          <ul class="footer-links-list">
+            <li>
+              <a
+                href="https://github.com/honath"
+                target="_blank"
+                class="footer-link text-off-white"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/alexander-cooper97/"
+                target="_blank"
+                class="footer-link text-off-white"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h6 class="text-off-white copyright">&#169; Alexander Cooper</h6>
+    </footer>
+    <script src="./scripts/common.js" crossorigin="anonymous"></script>
+    <script src="./scripts/home.js" crossorigin="anonymous"></script>
+  </body>
 </html>

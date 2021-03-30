@@ -1,0 +1,50 @@
+/* Home */
+.welcome-img-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-img {
+  height: 40vh;
+}
+
+.welcome-title {
+  color: rgb(113, 195, 227);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.landing-skills {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.skills-title {
+  border-bottom: 1px solid black;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.skills {
+  height: 23vh;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-img {
+  height: 20vh;
+  object-fit: contain;
+}

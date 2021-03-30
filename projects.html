@@ -1,59 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Alex Cooper's Portfolio</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css">
-        <link rel="stylesheet" href="style.css" type="text/css">
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Alex Cooper</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <link rel="stylesheet" href="styles/top-bottom.css" type="text/css" />
+    <link rel="stylesheet" href="styles/projects.css" type="text/css" />
+  </head>
 
-    <body>
-        <header class="black-background">
-            <h1>Alexander Cooper</h1>
-            <nav>
-                <ul class="no-bullets centered-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2>Decoder Ring</h2>
-                <div>
-                    <p>This functions primarily as a placeholder for a future, larger project - however, the Decoder Ring project uses Node.js
-                    to take in a string and either encode or decode the message, based on the parameters provided, and utilizes the following ciphers:</p>
-                    <ul>
-                        <li>Caesar Shift</li>
-                        <li>Polybius Square</li>
-                        <li>Substitution Cipher</li>
-                    </ul>
-                    <p>The GitHub repository can be accessed here: <a href="https://github.com/honath/project-decoder-ring" target="_blank">project-decoder-ring</a></p>
-                </div>
-                <hr>
-                <h2></h2>
-                <div>
-                    <div class="image-container">
-                        <img src="images/pomodoro.png" class="main-image" alt="Preview of Pomodoro timer page">
-                    </div>
-                    <p>The Pomodoro Timer project makes use of Bootstrap and React to create a dynamic timer making use of the Pomodoro technique.
-                         The Pomodoro technique separates work into intervals, separated by a small break. 
-                        There are upper and lower bounds to the focus and break timers, however both are adjustable via buttons.</p>
-                    <p>The GitHub repository can be accessed here: <a href="https://github.com/honath/Project_Pomodoro_Timer_Qualified_1" target="_blank">Project_Pomodoro_Timer</a></p>
-                </div>
-                <hr>
-                <h2>Future project...</h2>
-                <div>
-                    <p>This functions primarily as a placeholder for a future project.</p>
-                    <p>The GitHub repository can be accessed here: <a href="">coming soon...</a></p>
-                </div>
-            </section>
-        </main>
-        <footer class="black-background">
-            <h3>&#169; Alexander Cooper</h3>
-        </footer>
-    </body>
+  <body>
+    <!-- Page navbar -->
+    <nav class="nav-links">
+      <div class="outer-spacer outer-left"></div>
+      <div class="nav-link-box">
+        <button type="button" class="link-item" id="home">Home</button>
+      </div>
+
+      <div class="link-spacer"></div>
+      <div class="nav-link-box">
+        <button type="button" class="link-item" id="about">About</button>
+      </div>
+
+      <div class="link-spacer"></div>
+      <div class="nav-link-box">
+        <button type="button" class="link-item" id="projects">Projects</button>
+      </div>
+
+      <div class="link-spacer"></div>
+      <div class="nav-link-box">
+        <button type="button" class="link-item" id="contact">Contact</button>
+      </div>
+      <div class="outer-spacer outer-right"></div>
+    </nav>
+    <!-- Page body -->
+    <main>
+      <h1>Projects</h1>
+      <!-- Project WeLoveMovies -->
+      <section class="project">
+        <div class="project-header">
+          <h2 class="project-title">WeLoveMovies</h2>
+          <h3 class="project-scope back-end">Back End</h3>
+        </div>
+        <div class="row">
+          <div class="col-2 centered-p-parent">
+            <div class="center-paragraphs">
+              <p>
+                Backend project that includes a custom written RESTful API
+                connecting routes to a database, using Knex.
+              </p>
+            </div>
+          </div>
+          <div class="col-2">
+            <ul class="project-skills">
+              <li>Database construction, migration, and seeding</li>
+              <li>Robust RESTful API endpoint development</li>
+              <li>Efficient and accurate database queries</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-links">
+          <a
+            href="https://github.com/honath/project-WeLoveMovies"
+            target="_blank"
+            class="proj-a-link"
+            >GitHub Repository</a
+          >
+          <a
+            href="https://welovemovies.vercel.app/"
+            target="_blank"
+            class="proj-a-link"
+            >Deployed Website (no front-end)</a
+          >
+          <!-- optional -->
+        </div>
+      </section>
+      <section class="section-divider"></section>
+      <!-- Project Flashcard-o-Matic -->
+      <section class="project">
+        <div class="project-header">
+          <h2 class="project-title">Flashcard-o-Matic</h2>
+          <h3 class="project-scope front-end">Front End</h3>
+        </div>
+        <div class="project-img-container">
+          <img src="./images/project-images/" alt="" class="project-img" />
+        </div>
+        <div class="row">
+          <div class="col-2 centered-p-parent">
+            <div class="center-paragraphs">
+              <p>
+                Utilize React and Bootstrap to create a flash card web
+                application where a user can create, edit, and delete a deck.
+                Cards may be added, removed, or edited. There is a study
+                function for each deck with a 3 card minimum requirement to
+                function, otherwise the user is given the option to add cards.
+              </p>
+            </div>
+          </div>
+          <div class="col-2">
+            <ul class="project-skills">
+              <li>Route handling with React Router DOM</li>
+              <li>Dynamic state-based React components</li>
+              <li>
+                Elegant UI design utilizing the Bootstrap and Bootstrap Icons
+                framework
+              </li>
+              <li>Hooks and state-management</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-links">
+          <a
+            href="https://github.com/honath/flashcard-o-matic"
+            target="_blank"
+            class="proj-a-link"
+            >GitHub Repository</a
+          >
+          <a href="" target="_blank" class="proj-a-link">Deployed Website</a>
+          <!-- optional -->
+        </div>
+      </section>
+      <section class="section-divider"></section>
+      <!-- Project Pomodoro Timer -->
+      <section class="project">
+        <div class="project-header">
+          <h2 class="project-title">Pomodoro Timer</h2>
+          <h3 class="project-scope front-end">Front End</h3>
+        </div>
+        <div class="project-img-container">
+          <img
+            src="./images/project-images/pomodoro.png"
+            alt=""
+            class="project-img"
+          />
+        </div>
+        <div class="row">
+          <div class="col-2 centered-p-parent">
+            <div class="center-paragraphs">
+              <p>
+                The Pomodoro technique is a time-management method developed by
+                Francesco Cirillo in the late 1980s. The technique uses a timer
+                to break down work into intervals, traditionally 25 minutes in
+                length, separated by short breaks. Each interval is known as a
+                pomodoro, from the Italian word for tomato, after the
+                tomato-shaped kitchen timer that Cirillo used as a university
+                student. Control state and component display to provide a
+                quality experience and an accurate, reliable Pomodoro timer.
+              </p>
+            </div>
+          </div>
+          <div class="col-2">
+            <ul class="project-skills">
+              <li>Dynamic state-based React components</li>
+              <li>Elegant UI design utilizing the Bootstrap framework</li>
+              <li>Hooks and state-management</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-links">
+          <a
+            href="https://github.com/honath/Project_Pomodoro_Timer_Qualified_1"
+            target="_blank"
+            class="proj-a-link"
+            >GitHub Repository</a
+          >
+          <a
+            href="https://project-pomodoro-timer-qualified-1-delta.vercel.app/"
+            target="_blank"
+            class="proj-a-link"
+            >Deployed Website</a
+          >
+        </div>
+      </section>
+      <!-- Project template -->
+      <section class="project project-template" style="display: none">
+        <div class="project-header">
+          <h2 class="project-title">Title</h2>
+          <h3 class="project-scope SCOPE">Project Scope</h3>
+        </div>
+        <div class="project-img-container">
+          <img src="./images/project-images/" alt="" class="project-img" />
+          <!-- optional -->
+        </div>
+        <div class="row">
+          <div class="col-2 centered-p-parent">
+            <div class="center-paragraphs">
+              <p>Project description</p>
+            </div>
+          </div>
+          <div class="col-2">
+            <ul class="project-skills">
+              <li>Skill</li>
+              <li>Skill</li>
+              <li>Skill</li>
+            </ul>
+          </div>
+        </div>
+        <div class="project-links">
+          <a href="" target="_blank" class="proj-a-link">GitHub Repository</a>
+          <a href="" target="_blank" class="proj-a-link">Deployed Website</a>
+          <!-- optional -->
+        </div>
+      </section>
+    </main>
+    <!-- Page footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3 class="footer-header text-off-white">Navigation:</h3>
+          <ul class="footer-links-list">
+            <li>
+              <a href="index.html" class="footer-link text-off-white">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="footer-link text-off-white">About</a>
+            </li>
+            <li>
+              <a href="projects.html" class="footer-link text-off-white"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" class="footer-link text-off-white"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 class="footer-header text-off-white">Additional Links:</h3>
+          <ul class="footer-links-list">
+            <li>
+              <a
+                href="https://github.com/honath"
+                target="_blank"
+                class="footer-link text-off-white"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/alexander-cooper97/"
+                target="_blank"
+                class="footer-link text-off-white"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h6 class="text-off-white copyright">&#169; Alexander Cooper</h6>
+    </footer>
+    <script src="./scripts/common.js" crossorigin="anonymous"></script>
+  </body>
 </html>

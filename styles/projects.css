@@ -1,0 +1,58 @@
+.project {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
+}
+
+.project-scope {
+  color: rgba(38, 43, 47, 0.267);
+}
+
+.full-stack {
+  color: rgba(35, 207, 20, 0.87);
+}
+
+.front-end {
+  color: rgba(45, 129, 255, 0.836);
+}
+
+.back-end {
+  color: rgba(231, 139, 19, 0.87);
+}
+
+.project-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.project-img {
+  max-height: 40vh;
+}
+
+.project-skills {
+  list-style: none;
+  text-align: right;
+}
+
+.project-skills li {
+  padding-bottom: 5px;
+}
+
+.proj-a-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-right: 10px;
+}
+
+.proj-a-link:hover {
+  color: rgb(73, 80, 83);
+}

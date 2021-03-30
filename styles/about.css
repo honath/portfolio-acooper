@@ -1,0 +1,22 @@
+.charlotte {
+  background-image: url("../images/body/charlotte.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(38, 43, 47, 0.521);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.body-me-container {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-me {
+  height: 30vh;
+}
+
+.wooden-knecklace {
+  max-height: 40vh;
+}
