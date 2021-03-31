@@ -98,3 +98,11 @@ input[type="submit"]:hover {
   background-color: rgb(120, 174, 250);
   transition: 0.28s;
 }
+
+@media all and (max-width: 768px) {
+  header {
+    height: 13vh;
+    background-size: 120%;
+  }
+}
+

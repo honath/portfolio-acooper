@@ -145,7 +145,7 @@ header {
 footer {
   padding-top: 13px;
   background-color: rgb(38, 43, 47);
-  height: 15vh;
+  height: 16vh;
   text-align: center;
 }
 
@@ -153,6 +153,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: top;
+  background-color: rgb(38, 43, 47);
 }
 
 .footer-column {
@@ -180,6 +181,7 @@ footer {
 }
 
 .copyright {
+  background-color: rgb(38, 43, 47);
   padding-top: 10px;
 }
 
@@ -189,11 +191,15 @@ footer {
   top: 2%;
   right: 3%;
   height: 10vh;
-  width: 7vw;
+  width: 25px;
   display: none;
   flex-direction: column;
   align-items: center;
   z-index: 4;
+}
+
+.hamburger:hover {
+  cursor: pointer;
 }
 
 .ham-line {
@@ -245,6 +251,10 @@ footer {
     flex-direction: column;
   }
 
+  .sticky + main {
+    padding-top: 0px;
+  }
+
   .hamburger {
     display: flex;
   }
@@ -255,7 +265,7 @@ footer {
 
   .header-logo {
     align-items: center;
-    padding-top: 5%;
+    padding-top: 3vh;
   }
 
   .header-title h1 {
@@ -267,7 +277,9 @@ footer {
   }
 
   .header-links {
-    margin-right: auto;
+    justify-content: space-between;
+    width: 100px;
+
   }
 
   .header-icon {
@@ -276,5 +288,9 @@ footer {
 
   .header-icon-link {
     display: none;
+  }
+
+  footer {
+    height: 17vh;
   }
 }

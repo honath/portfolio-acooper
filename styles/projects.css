@@ -61,3 +61,40 @@
 .proj-a-link:hover {
   color: rgb(73, 80, 83);
 }
+
+@media all and (max-width: 768px) {
+  header {
+    height: 13vh;
+  }
+  
+  .project-img {
+    max-width: 80vw;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col-2 {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .centered-p-parent {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.315);
+  }
+
+  .project-skills {
+    margin-top: 10px;
+    text-align: left;
+    list-style: square;
+  }
+
+  .project-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proj-a-link {
+    padding-bottom: 7px;
+  }
+}

@@ -17,3 +17,13 @@
 .wooden-knecklace {
   max-height: 40vh;
 }
+
+@media all and (max-width: 768px) {
+  header {
+    height: 13vh;
+  }
+
+  .img-me {
+    max-width: 40vw;
+  }
+}
