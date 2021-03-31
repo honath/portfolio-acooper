@@ -33,3 +33,26 @@ function navBtnClickHandler(buttonId) {
   if (buttonId == "projects") location.href = hrefURLs.projects;
   if (buttonId == "contact") location.href = hrefURLs.contact;
 }
+
+// Add click functionality to hamburger menu
+document
+  .querySelector(".hamburger")
+  .addEventListener("click", (event) => hamClickHandler());
+let hamToggle = false;
+
+function hamClickHandler() {
+  const hamOverlay = document.querySelector(".hamburger-overlay");
+  const hamIcon = document.querySelectorAll(".ham-line");
+
+  if (!hamToggle) {
+    hamOverlay.style.width = "100%";
+    hamIcon.forEach((line) => (line.style.backgroundColor = "#fffef9"));
+  } else {
+    hamOverlay.style.width = "0%";
+    hamIcon.forEach(
+      (line) => (line.style.backgroundColor = "rgba(124, 124, 124, 0.562)")
+    );
+  }
+
+  hamToggle = !hamToggle;
+}

@@ -46,5 +46,24 @@
 
 .skill-img {
   height: 20vh;
-  object-fit: contain;
+}
+
+@media all and (max-width: 1050px) {
+  .skills-container {
+    flex-direction: column;
+  }
+
+  .skill-header {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .welcome-img {
+    max-width: 40vw;
+    object-fit: contain;
+  }
+
+  .welcome-title {
+    font-size: 16px;
+  }
 }
