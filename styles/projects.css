@@ -59,7 +59,7 @@ main {
   header {
     height: 13vh;
   }
-  
+
   .project-header {
     display: block;
     height: 4.3rem;
@@ -67,6 +67,9 @@ main {
 
   .project-title {
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(179, 179, 179);
+    text-decoration-thickness: 1px;
   }
 
   .project-tech {

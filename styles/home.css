@@ -15,6 +15,7 @@
   padding-bottom: 0.5vh;
   margin: auto;
   border-bottom: 1px solid rgba(207, 206, 206, 0.63);
+  text-align: center;
 }
 
 .tech-header {
