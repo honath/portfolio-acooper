@@ -217,7 +217,7 @@ footer {
   max-width: 25px;
   height: 3px;
   margin: 2px 0;
-  background-color: rgba(124, 124, 124, 0.562);
+  background-color: rgba(102, 102, 102, 0.74);
   border-radius: 5px;
   z-index: 4;
   transition: 0.2s;
