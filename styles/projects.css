@@ -3,6 +3,10 @@
   box-shadow: none;
 }
 
+main {
+  background-color: #eeeeee;
+}
+
 .project {
   width: 100%;
   padding: 3%;
