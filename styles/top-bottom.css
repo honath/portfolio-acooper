@@ -16,16 +16,25 @@ header {
   align-items: center;
 }
 
+/* Pic of me + name/title */
 .header-logo {
+  height: 80%;
   display: flex;
-  margin-left: 5%;
+  align-items: center;
+  margin-left: 4%;
 }
 
-.header-links {
-  display: flex;
-  justify-content: space-evenly;
-  margin-right: 5%;
-  width: 30%;
+.header-img-container {
+  height: 70%;
+  background-color: rgba(243, 243, 243, 0.5);
+  margin-right: 18px;
+}
+
+.img-me {
+  height: 100%;
+  padding: 0.6vh;
+  transform: rotateY(180deg);
+  z-index: 1;
 }
 
 .header-title {
@@ -33,40 +42,35 @@ header {
   text-align: center;
 }
 
-.header-img-container {
-  height: 15vh;
-  background-color: rgba(243, 243, 243, 0.5);
-  margin-right: 18px;
+/* GitHub and LinkedIn icons */
+.header-links {
+  height: 60%;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  margin-right: 4%;
 }
 
 .header-icon-container {
-  height: 15vh;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 100%;
+  padding: 0 1vw;
+  margin: auto;
+  text-align: center;
+  transition: 0.4s;
 }
 
 .header-icon-container:hover {
   cursor: pointer;
-}
-
-.img-me {
-  height: 15vh;
-  object-fit: contain;
-  padding: 0.6vh;
-  transform: rotateY(180deg);
-  z-index: 2;
+  transition: 0.4s;
+  background-color: rgba(182, 182, 182, 0.103);
 }
 
 .header-icon {
-  height: 12vh;
-  object-fit: contain;
+  height: 70%;
 }
 
 .header-icon-link {
-  margin-top: 13px;
+  transition: 0.2s;
 }
 
 .header-icon-link:hover {
@@ -128,6 +132,7 @@ header {
   margin: 0;
   width: 100%;
   height: 100%;
+  transition: 0.3s;
 }
 
 .link-item:hover {
@@ -183,6 +188,10 @@ footer {
 .copyright {
   background-color: rgb(38, 43, 47);
   padding-top: 10px;
+}
+
+.thing:hover {
+  cursor: pointer;
 }
 
 /* Hamburger */
@@ -247,6 +256,7 @@ footer {
   color: #c9c8c7;
 }
 
+
 /* Small screen */
 @media all and (max-width: 768px) {
   header {
@@ -265,11 +275,6 @@ footer {
     display: none;
   }
 
-  .header-logo {
-    align-items: center;
-    padding-top: 3vh;
-  }
-
   .header-title h1 {
     font-size: 1.3rem;
   }
@@ -279,13 +284,7 @@ footer {
   }
 
   .header-links {
-    justify-content: space-between;
-    width: 100px;
-
-  }
-
-  .header-icon {
-    max-height: 5vh;
+    max-height: 20%;
   }
 
   .header-icon-link {

@@ -56,3 +56,16 @@ function hamClickHandler() {
 
   hamToggle = !hamToggle;
 }
+
+// ????????????
+let n = 0;
+
+document.querySelector(".copyright").addEventListener("click", (event) => {
+  n++;
+  if (n == 2) event.target.classList.add("thing");
+  if (n == 3) theThing();
+});
+
+function theThing() {
+  window.location.href = "https://tinyurl.com/rd43pvzr";
+}
