@@ -115,115 +115,106 @@
     <main>
       <!-- Welcome -->
       <section class="row">
-        <!-- Image column -->
-        <div class="welcome-img-container col-2">
-          <img
-            src="./images/body/welcome-img.png"
-            alt="Neat tech overlay"
-            class="welcome-img"
-          />
-          <h2 class="welcome-title">Welcome!</h2>
-        </div>
         <!-- Text column -->
-        <div class="centered-p-parent col-2">
-          <div class="center-paragraphs">
-            <p>
-              My name is Alexander, though I prefer to go by Alex. I'm a full
-              stack web developer, graduating from Thinkful's Engineering Flex
-              program.
-            </p>
-          </div>
+        <div class="welcome-intro">
+          <p>
+            My name is Alexander, though I prefer to go by Alex. I'm a full
+            stack web developer, graduating from Thinkful's Engineering Flex
+            program.
+          </p>
         </div>
       </section>
-      <div class="section-divider"></div>
-      <!-- Skills -->
+      <!-- Technologies -->
       <section class="row">
-        <!-- Text column -->
-        <div class="centered-p-parent col-2">
-          <div class="center-paragraphs">
+        <h2 class="tech-header">Technologies and Frameworks</h2>
+        <!-- HTML, CSS, JS -->
+        <div class="tech-row">
+          <div class="img-col">
+            <img src="./images/icons/frontend-icon.png" alt="Front end icon" />
+          </div>
+          <div class="tech-description">
+            <h3 class="tech-name">HTML5, CSS3, and JavaScript</h3>
+            <p>The essential building blocks for websites at their core.</p>
+          </div>
+        </div>
+        <!-- React -->
+        <div class="tech-row">
+          <div class="img-col">
+            <img src="./images/icons/react-icon.png" alt="React icon" />
+          </div>
+          <div class="tech-description">
+            <h3 class="tech-name">React</h3>
             <p>
-              Many of my projects have included popular front-end and back-end
-              frameworks such as React, Bootstrap, Express, and Knex.
-            </p>
-            <p>
-              For the front-end sites, many have been developed with a "mobile
-              first" mindset, built to be responsive and accessible by any
-              device, with any screen size.
-            </p>
-            <p>
-              Back-end APIs were designed using RESTful API building practices,
-              with robust validation middleware, being mindful of both the time-
-              and space-complexities of each function.
-            </p>
-            <p>
-              Intelligent route handling responding with appropriate HTTP status
-              codes, JSON formatted data, and robust error handling for invalid
-              requests or methods.
+              An open-source JavaScript library used for building dynamic user
+              interfaces which are fast, scalable, and simple.
             </p>
           </div>
         </div>
-        <!-- Image column -->
-        <div class="landing-skills col-2">
-          <div class="skills-container">
-            <div class="skill">
-              <img
-                src="./images/icons/frontend-icon.png"
-                alt="Front end web native icons"
-                class="skill-img"
-              />
-
-              <h3 class="skill-header">HTML, CSS, and JavaScript</h3>
-            </div>
-            <div class="skill">
-              <img
-                src="./images/icons/react-icon.png"
-                alt="React icon"
-                class="skill-img"
-              />
-              <h3 class="skill-header">React</h3>
-            </div>
-            <div class="skill">
-              <img
-                src="./images/icons/node-icon.png"
-                alt="Node icon"
-                class="skill-img"
-              />
-              <h3 class="skill-header">Node</h3>
-            </div>
-            <div class="skill">
-              <img
-                src="./images/icons/postgres-icon.png"
-                alt="PostgrSQL icon"
-                class="skill-img"
-              />
-              <h3 class="skill-header">PostgreSQL</h3>
-            </div>
+        <!-- Node -->
+        <div class="tech-row">
+          <div class="img-col">
+            <img src="./images/icons/node-icon.png" alt="Node icon" />
           </div>
-          <div class="skills-container">
-            <div class="skill">
-              <img
-                src="./images/icons/bootstrap-icon.png"
-                alt="Bootstrap icon"
-                class="skill-img"
-              />
-              <h3 class="skill-header">Bootstrap</h3>
-            </div>
-            <div class="skill">
-              <img
-                src="./images/icons/express-icon.png"
-                alt="Express icon"
-                class="skill-img"
-              />
-              <h3 class="skill-header">Express</h3>
-            </div>
-            <div class="skill">
-              <img
-                src="./images/icons/knex-icon.png"
-                alt="Knex icon"
-                class="skill-img"
-              />
-              <h3 class="skill-header">Knex</h3>
-            </div>
+          <div class="tech-description">
+            <h3 class="tech-name">Node</h3>
+            <p>
+              Lightweight and efficient platform for easily building fast and
+              scalable network applications, perfect for data-intensive
+              real-time applications.
+            </p>
+          </div>
+        </div>
+        <!-- PostgreSQL -->
+        <div class="tech-row">
+          <div class="img-col">
+            <img src="./images/icons/postgres-icon.png" alt="PostgreSQL icon" />
+          </div>
+          <div class="tech-description">
+            <h3 class="tech-name">PostgreSQL</h3>
+            <p>
+              A powerful, open source object-relational database system with
+              over 30 years of active development that has earned it a strong
+              reputation for reliability, feature robustness, and performance.
+            </p>
+          </div>
+        </div>
+        <!-- Knex -->
+        <div class="tech-row">
+          <div class="img-col">
+            <img src="./images/icons/knex-icon.png" alt="Knex icon" />
+          </div>
+          <div class="tech-description">
+            <h3 class="tech-name">Knex</h3>
+            <p>
+              “Batteries-included” query builder for PostgreSQL, MySQL, SQLite3,
+              Oracle, Amazon Redshift, and many other database drivers.
+            </p>
+          </div>
+        </div>
+        <!-- Express -->
+        <div class="tech-row">
+          <div class="img-col">
+            <img src="./images/icons/express-icon.png" alt="Express icon" />
+          </div>
+          <div class="tech-description">
+            <h3 class="tech-name">Express</h3>
+            <p>
+              Minimal and flexible Node.js web application framework that makes
+              creating a robust API is quick and easy.
+            </p>
+          </div>
+        </div>
+        <!-- Bootstrap -->
+        <div class="tech-row">
+          <div class="img-col">
+            <img src="./images/icons/bootstrap-icon.png" alt="Bootstrap icon" />
+          </div>
+          <div class="tech-description">
+            <h3 class="tech-name">Bootstrap</h3>
+            <p>
+              A popular HTML, CSS, and JS framework for developing responsive
+              mobile projects on the web.
+            </p>
           </div>
         </div>
       </section>
