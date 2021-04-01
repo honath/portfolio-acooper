@@ -4,62 +4,51 @@
 }
 
 .project {
-  padding-top: 10px;
-  padding-bottom: 15px;
+  width: 100%;
+  padding: 3%;
+  margin-bottom: 2vh;
+  transition: 0.4s;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.329));
+  background-color: #fffef9;
+}
+
+.project:hover {
+  transition: 0.4s;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.555));
 }
 
 .project-header {
+  height: 5vh;
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
+  align-items: center;
   border-bottom: 1px solid black;
 }
 
-.project-scope {
-  color: rgba(38, 43, 47, 0.267);
-}
-
-.full-stack {
-  color: rgba(35, 207, 20, 0.87);
-}
-
-.front-end {
-  color: rgba(45, 129, 255, 0.836);
-}
-
-.back-end {
-  color: rgba(231, 139, 19, 0.87);
-}
-
-.project-img-container {
+.project-tech {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  height: 100%;
+  width: 50%;
 }
 
-.project-img {
-  max-height: 40vh;
+.tech-img {
+  margin: 1%;
+  height: 70%;
 }
 
-.project-skills {
-  list-style: none;
-  text-align: right;
+.project-description {
+  margin: 1rem;
 }
 
-.project-skills li {
-  padding-bottom: 5px;
+.project-description a {
+  color: black;
 }
 
-.proj-a-link {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  padding-right: 10px;
-}
-
-.proj-a-link:hover {
-  color: rgb(73, 80, 83);
+.project-description a:hover {
+  transition: 0.2s;
+  color: rgb(77, 77, 77);
 }
 
 @media all and (max-width: 768px) {
@@ -67,34 +56,18 @@
     height: 13vh;
   }
   
-  .project-img {
-    max-width: 80vw;
+  .project-header {
+    display: block;
+    height: 4.3rem;
   }
 
-  .row {
-    flex-direction: column;
+  .project-title {
+    text-align: center;
   }
 
-  .col-2 {
-    flex: 100%;
-    max-width: 100%;
-  }
-  .centered-p-parent {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.315);
-  }
-
-  .project-skills {
-    margin-top: 10px;
-    text-align: left;
-    list-style: square;
-  }
-
-  .project-links {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .proj-a-link {
-    padding-bottom: 7px;
+  .project-tech {
+    height: 50%;
+    width: 100%;
+    justify-content: space-evenly;
   }
 }

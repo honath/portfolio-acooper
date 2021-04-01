@@ -46,6 +46,14 @@ main {
   padding-left: 15px;
 }
 
+.section-title {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 5px;
+  width: 30vw;
+  border-bottom: 1px solid rgba(207, 206, 206, 0.63);
+}
+
 .section-header {
   padding-top: 10px;
   border-bottom: 1px solid rgba(36, 37, 37, 0.534);
