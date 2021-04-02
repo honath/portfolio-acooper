@@ -3,13 +3,10 @@
   box-shadow: none;
 }
 
-main {
-  background-color: #eeeeee;
-}
-
 .project {
   width: 100%;
   padding: 3%;
+  border-radius: 5px;
   margin-bottom: 2vh;
   transition: 0.4s;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.329));

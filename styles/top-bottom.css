@@ -133,6 +133,7 @@ header {
   width: 100%;
   height: 100%;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .link-item:hover {
