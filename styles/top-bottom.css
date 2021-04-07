@@ -41,10 +41,20 @@ header {
   text-align: center;
 }
 
+.header-title h1 {
+  font-size: 3rem;
+  margin: 0px;
+  padding-bottom: 3px;
+}
+
+.header-title h2 {
+  font-size: 1.2rem;
+}
+
 /* GitHub and LinkedIn icons */
 .header-links {
-  height: 60%;
-  width: 20vw;
+  height: 30%;
+  width: 12vw;
   display: flex;
   align-items: center;
   margin-right: 4%;

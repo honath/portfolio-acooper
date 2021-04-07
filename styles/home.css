@@ -46,15 +46,15 @@
   padding-bottom: 1vh;
   display: flex;
   justify-content: center;
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   border-radius: 5px;
 }
 
-.tech-container:hover {
+/* .tech-container:hover {
   z-index: 1;
   transition: 0.3s;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.555));
-}
+} */
 
 .img-col {
   width: 100%;
@@ -73,10 +73,10 @@
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.329));
 }
 
-.img-col img:hover {
+/* .img-col img:hover {
   transition: 0.4s;
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.555));
-}
+} */
 
 .tech-description {
   width: 85%;
