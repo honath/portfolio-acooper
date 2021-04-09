@@ -6,6 +6,11 @@
   font-family: "Lato", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 .text-off-white {
   color: #fffef9;
 }

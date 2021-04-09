@@ -12,7 +12,10 @@
       property="og:description"
       content="Welcome to my portfolio website! My name is Alexander, and I am a full stack web developer."
     />
-    <meta property="og:image" content="https://honath.github.io/portfolio-acooper/images/header/thumbnail.png" />
+    <meta
+      property="og:image"
+      content="https://honath.github.io/portfolio-acooper/images/header/thumbnail.png"
+    />
     <title>Portfolio - Home</title>
     <link rel="icon" href="./images/icons/website-icon.png" />
     <link
@@ -80,12 +83,12 @@
 
       <div class="link-spacer"></div>
       <div class="nav-link-box">
-        <a class="link-item" href="#skills">Skills</a>
+        <a class="link-item" href="#projects">Projects</a>
       </div>
 
       <div class="link-spacer"></div>
       <div class="nav-link-box">
-        <a class="link-item" href="#projects">Projects</a>
+        <a class="link-item" href="#skills">Skills</a>
       </div>
 
       <div class="link-spacer"></div>
@@ -105,11 +108,11 @@
           <a class="ham-links text-off-white text-drop-shadow" href="#home"
             >Home</a
           >
-          <a class="ham-links text-off-white text-drop-shadow" href="#skills"
-            >Skills</a
-          >
           <a class="ham-links text-off-white text-drop-shadow" href="#projects"
             >Projects</a
+          >
+          <a class="ham-links text-off-white text-drop-shadow" href="#skills"
+            >Skills</a
           >
           <a class="ham-links text-off-white text-drop-shadow" href="#contact"
             >Contact</a
@@ -120,10 +123,10 @@
     <!-- Page body -->
     <main>
       <!-- Projects -->
-      <div class="primary-row bg-dark" name="projects" id="projects">
+      <section class="primary-row bg-dark" name="projects" id="projects">
         <h2 class="section-title">Projects</h2>
         <!-- WeLoveMovies -->
-        <section class="project">
+        <div class="project">
           <div class="project-header">
             <h3 class="project-title">WeLoveMovies</h3>
             <div class="project-tech">
@@ -183,9 +186,9 @@
               >
             </p>
           </div>
-        </section>
+        </div>
         <!-- Pomodoro Timer -->
-        <section class="project">
+        <div class="project">
           <!-- style="display: none" -->
           <div class="project-header">
             <h3 class="project-title">Pomodoro Timer</h3>
@@ -247,9 +250,9 @@
               >
             </p>
           </div>
-        </section>
+        </div>
         <!-- Flashcard-o-Matic -->
-        <section class="project">
+        <div class="project">
           <div class="project-header">
             <h3 class="project-title">Flashcard-o-Matic</h3>
             <div class="project-tech">
@@ -295,9 +298,9 @@
               >
             </p>
           </div>
-        </section>
+        </div>
         <!-- WaffleBot -->
-        <section class="project">
+        <div class="project">
           <div class="project-header">
             <h3 class="project-title">WaffleBot</h3>
             <div class="project-tech">
@@ -339,9 +342,9 @@
               >
             </p>
           </div>
-        </section>
+        </div>
         <!-- Project template -->
-        <section class="project" style="display: none">
+        <div class="project" style="display: none">
           <!-- style="display: none" -->
           <div class="project-header">
             <h3 class="project-title">TITLE</h3>
@@ -408,12 +411,12 @@
             <br />
             <p><a target="_blank" href="">Website Link</a></p>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
       <!-- Technologies/Skills -->
-      <div class="primary-row" name="skills" id="skills">
+      <section class="primary-row" name="skills" id="skills">
         <h2 class="section-title">Technologies and Frameworks</h2>
-        <section class="row technologies">
+        <div class="row technologies">
           <!-- Tech Row -->
           <div class="tech-row">
             <!-- HTML, CSS, JS -->
@@ -528,12 +531,12 @@
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
       <!-- Contact -->
-      <div class="primary-row bg-dark" name="contact" id="contact">
+      <section class="primary-row bg-dark" name="contact" id="contact">
         <h2 class="section-title">Contact</h2>
-        <section class="contact-body bg-dark">
+        <div class="contact-body bg-dark">
           <!-- Reveal contact info -->
           <div class="contact-interact">
             <p>
@@ -561,7 +564,7 @@
             </div>
           </div>
           <!-- Contact form -->
-          <section class="contact-form">
+          <div class="contact-form">
             <h3>Send me a message:</h3>
             <form action="https://formspree.io/f/mqkgnqva" method="post">
               <div class="form-upper">
@@ -592,9 +595,9 @@
                 <input type="submit" value="Submit" />
               </div>
             </form>
-          </section>
-        </section>
-      </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Page footer -->
     <footer>
