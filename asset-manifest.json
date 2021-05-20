@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio-acooper/static/css/main.d2ca6fcc.chunk.css",
+    "main.js": "/portfolio-acooper/static/js/main.8c7c3777.chunk.js",
+    "main.js.map": "/portfolio-acooper/static/js/main.8c7c3777.chunk.js.map",
+    "runtime-main.js": "/portfolio-acooper/static/js/runtime-main.2e72208d.js",
+    "runtime-main.js.map": "/portfolio-acooper/static/js/runtime-main.2e72208d.js.map",
+    "static/js/2.7623d0fc.chunk.js": "/portfolio-acooper/static/js/2.7623d0fc.chunk.js",
+    "static/js/2.7623d0fc.chunk.js.map": "/portfolio-acooper/static/js/2.7623d0fc.chunk.js.map",
+    "index.html": "/portfolio-acooper/index.html",
+    "static/css/main.d2ca6fcc.chunk.css.map": "/portfolio-acooper/static/css/main.d2ca6fcc.chunk.css.map",
+    "static/js/2.7623d0fc.chunk.js.LICENSE.txt": "/portfolio-acooper/static/js/2.7623d0fc.chunk.js.LICENSE.txt",
+    "static/media/api.2d716a7f.jpg": "/portfolio-acooper/static/media/api.2d716a7f.jpg",
+    "static/media/bootstrap-icon.70111601.png": "/portfolio-acooper/static/media/bootstrap-icon.70111601.png",
+    "static/media/discord.dcfee3cd.jpg": "/portfolio-acooper/static/media/discord.dcfee3cd.jpg",
+    "static/media/express-icon.3bdb5539.png": "/portfolio-acooper/static/media/express-icon.3bdb5539.png",
+    "static/media/flashcard.4345c8da.jpg": "/portfolio-acooper/static/media/flashcard.4345c8da.jpg",
+    "static/media/github-icon-charcoal.3e9c918e.png": "/portfolio-acooper/static/media/github-icon-charcoal.3e9c918e.png",
+    "static/media/knex-icon.ba91ebc2.png": "/portfolio-acooper/static/media/knex-icon.ba91ebc2.png",
+    "static/media/linkedin-icon-charcoal.11333e3a.png": "/portfolio-acooper/static/media/linkedin-icon-charcoal.11333e3a.png",
+    "static/media/me.125986d8.png": "/portfolio-acooper/static/media/me.125986d8.png",
+    "static/media/node-icon.7f1e0217.png": "/portfolio-acooper/static/media/node-icon.7f1e0217.png",
+    "static/media/pomodoro.e19667b5.jpg": "/portfolio-acooper/static/media/pomodoro.e19667b5.jpg",
+    "static/media/postgres-icon.b107b134.png": "/portfolio-acooper/static/media/postgres-icon.b107b134.png",
+    "static/media/react-icon.17c3551f.png": "/portfolio-acooper/static/media/react-icon.17c3551f.png",
+    "static/media/restaurant.14bbf8d4.jpg": "/portfolio-acooper/static/media/restaurant.14bbf8d4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e72208d.js",
+    "static/js/2.7623d0fc.chunk.js",
+    "static/css/main.d2ca6fcc.chunk.css",
+    "static/js/main.8c7c3777.chunk.js"
+  ]
+}
