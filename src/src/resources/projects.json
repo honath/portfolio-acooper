@@ -1,0 +1,82 @@
+{
+  "projects": [
+    {
+      "name": "Restaurant Reservation System",
+      "id": "restaurant",
+      "scope": "Full Stack",
+      "stack": [
+          "react",
+          "bs",
+          "node",
+          "ex",
+          "pg",
+          "knex"
+      ],
+      "description": "Responsive full stack web application for restaurant management to create, edit, cancel, and seat reservations, along with general table management.",
+      "links": {
+        "github": "https://github.com/honath/restaurant-reservation",
+        "demo": "https://restaurant-reservation-client.vercel.app/dashboard"
+      }
+    },
+    {
+      "name": "Pomodoro Timer",
+      "id": "pomodoro",
+      "scope": "Front End",
+      "stack": [
+        "react",
+        "bs"
+      ],
+      "description": "Front end website for time management with a focus on studying and work, using the pomodoro technique.",
+      "links": {
+        "github": "https://github.com/honath/Pomodoro_Timer",
+        "demo": "https://project-pomodoro-timer-qualified-1-delta.vercel.app/"
+      }
+    },
+    {
+      "name": "Movie Theater API",
+      "id": "movie",
+      "scope": "Back End",
+      "stack": [
+        "node",
+        "ex",
+        "pg",
+        "knex"
+      ],
+      "description": "RESTful CRUD API for fetching movie theaters and their available movie showings.",
+      "links": {
+        "github": "https://github.com/honath/WeLoveMovies",
+        "demo": null
+      }
+    },
+    {
+      "name": "Flashcard Study Suite",
+      "id": "flashcard",
+      "scope": "Full Stack",
+      "stack": [
+        "react",
+        "bs",
+        "node",
+        "ex"
+      ],
+      "description": "Website for deck management and flashcard study.",
+      "links": {
+        "github": "https://github.com/honath/Flashcard-o-Matic",
+        "demo": null
+      }
+    },
+    {
+      "name": "Discord Chatbot",
+      "id": "discord",
+      "scope": "Back End",
+      "stack": [
+        "node",
+        "ex"
+      ],
+      "description": "Discord live chatbot for responding to user input, server management, and webhook notifications.",
+      "links": {
+        "github": "https://github.com/honath/waffle-bot",
+        "demo": null
+      }
+    }
+  ]
+}

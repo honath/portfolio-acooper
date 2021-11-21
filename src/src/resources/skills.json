@@ -1,0 +1,23 @@
+{
+  "skills": {
+    "languages": ["HTML", "CSS", "JavaScript", "SQL", "C#", "Visual Basic"],
+    "frameworks": [
+      "React.js",
+      "Blazor",
+      "Bootstrap",
+      "JQuery",
+      "Node.js",
+      "Express",
+      "Knex.js"
+    ],
+    "technologies": [
+      "Visual Studio & VS Code",
+      "Git Source Control",
+      "Azure DevOps",
+      "Microsoft SQL Server",
+      "DBeaver",
+      "Postman",
+      "Adobe Photoshop"
+    ]
+  }
+}
