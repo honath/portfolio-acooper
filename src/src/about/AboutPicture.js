@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../style.css";
-import portrait from "../resources/images/body/me.png";
+import portrait from "../resources/images/body/seedspark_me.png";
 
 export default function AboutPicture() {
   return (
