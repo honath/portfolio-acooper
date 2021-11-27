@@ -3,7 +3,6 @@
     "languages": ["HTML", "CSS", "JavaScript", "SQL", "C#", "Visual Basic"],
     "frameworks": [
       "React.js",
-      "Blazor",
       "Bootstrap",
       "JQuery",
       "Node.js",
@@ -15,9 +14,8 @@
       "Git Source Control",
       "Azure DevOps",
       "Microsoft SQL Server",
-      "DBeaver",
-      "Postman",
-      "Adobe Photoshop"
+      "Adobe Photoshop",
+      "Excel 365"
     ]
   }
 }

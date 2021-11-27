@@ -1,3 +1,4 @@
+import React from 'react';
 import capitalizeFirst from "../common/capitalizeFirst";
 
 import "../style.css";
