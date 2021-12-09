@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/portfolio-acooper/precache-manifest.ad1aa967d44f73fc591e79ffebb86515.js"
+  "/portfolio-acooper/precache-manifest.bb50b27e73dc1491b9606718b1a860ea.js"
 );
 
 self.addEventListener('message', (event) => {
