@@ -1,13 +1,13 @@
 {
   "skills": {
-    "languages": ["HTML", "CSS", "JavaScript", "SQL", "C#", "Visual Basic"],
+    "languages": [ "HTML", "CSS", "JavaScript", "SQL", "C#", "Visual Basic" ],
     "frameworks": [
       "React.js",
       "Bootstrap",
       "JQuery",
       "Node.js",
       "Express",
-      "Knex.js"
+      "ASP.NET"
     ],
     "technologies": [
       "Visual Studio & VS Code",
